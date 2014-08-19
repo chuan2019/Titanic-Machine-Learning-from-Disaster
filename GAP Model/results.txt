@@ -1,0 +1,47 @@
+=================================================================
+*Gender Model:
+=================================================================
+Women survived: 233, ratio: 0.742038216561
+Women perished: 81, ratio: 0.257961783439
+Men survived: 109, ratio: 0.188908145581
+Men perished: 468, ratio: 0.811091854419
+
+The accuracy of the gender model on cv set is: 0.789237668161
+
+=================================================================
+*Age Model:
+=================================================================
+The ratio of survival rate of teenage (Age <= 18): 0.503597122302
+The ratio of survival rate of adult (Age > 18): 0.382608695652
+
+The accuracy of the age model on cv set is: 0.608938547486
+
+=================================================================
+*Pclass Model:
+=================================================================
+The ratio of survival rate of 1st class passenger: 0.62962962963
+The ratio of survival rate of 2nd class passenger: 0.472826086957
+The ratio of survival rate of 3rd class passenger: 0.242362525458
+
+The ratio of the survived passengers in cv set is: 0.367713004484
+
+The accuracy of the Pclass model on cv set is: 0.735426008969
+
+=================================================================
+*GAP Model #1:
+=================================================================
+The overall survival rate is: 0.389221556886
+____________________________________________________________________
+Women survived: 180, ratio: 0.740740740741
+Women perished: 63, ratio: 0.259259259259
+Men survived: 80, ratio: 0.188235294118
+Men perished: 345, ratio: 0.811764705882
+____________________________________________________________________
+The ratio of survival rate of teenage (Age <= 18): 0.505263157895
+The ratio of survival rate of adult (Age > 18): 0.390300230947
+____________________________________________________________________
+The ratio of survival rate of 1st class passenger: 0.60248447205
+The ratio of survival rate of 2nd class passenger: 0.5
+The ratio of survival rate of 3rd class passenger: 0.254742547425
+====================================================================
+The accuracy of the GAP model #1 on cv set is: 0.820627802691
