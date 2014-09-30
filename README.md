@@ -12,5 +12,9 @@ My Solutions to a Kaggle Competition:
     </i>
     The accuracy is: around 81% my own on cross-validation set, and 78.5% on Kaggle.
 
+2. Classification Using Six Commonly Used Classifiers and Combining Them With Majority Vote:
+    <i>
+        Used six commonly used classification algorithms: logistic regression, decision trees, random forest, k-nearest neighbors, linear discriminant analysis, support vector machine, and combining all of them with majority vote.
+    </i>
 
 
