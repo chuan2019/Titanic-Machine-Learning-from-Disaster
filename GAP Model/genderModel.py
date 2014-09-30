@@ -7,7 +7,7 @@ import tkFileDialog as fd
 ##root = tk.Tk()
 ##root.withdraw()
 ##file_path = fd.askopenfilename()
-file_path = '../data/csv/train.csv'
+file_path = '../data/train.csv'
 rawData = csv.reader(open(file_path,'rb'))
 colnames = rawData.next()
 ## 0: 'PassengerId', 1: 'Survived', 2: 'Pclass', 3: 'Name',
