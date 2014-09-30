@@ -101,7 +101,7 @@ confusionMatrix(table(modPred.logit,data.cv$Survived))
 #       Balanced Accuracy : 0.7433          
 #                                           
 #        'Positive' Class : 0     
-## This shows that Logistic model is not indeed a good choice
+
 
 #### Training Model 1: Decision Tree Model ####
 library(rpart)
@@ -135,7 +135,7 @@ confusionMatrix(table(modPred.rpart,data.cv$Survived))
 #       Balanced Accuracy : 0.7433          
 #                                           
 #        'Positive' Class : 0   
-## Clearly, this decision tree is not a good model either
+
 
 #### Training Model 2: Random Forest Model ####
 library(randomForest)
@@ -167,7 +167,7 @@ confusionMatrix(table(modPred.rf,data.cv$Survived))
 #       Balanced Accuracy : 0.7596          
 #                                           
 #        'Positive' Class : 0     
-## This shows that random forest model is even worse!
+
 
 #### Training Model 3: K-Nearest Neighbor Model ####
 set.seed(5425)
@@ -260,6 +260,7 @@ confusionMatrix(table(modPred.lda$class,data.cv.lda$Survived))
 #                                          
 #        'Positive' Class : 0             
 
+
 #### Training Model 5: Support Vector Machine Model ####
 modFit.svm <- svm(Survived ~ ., data=data.train)
 modPred.svm <- predict(modFit.svm, newdata=data.cv)
@@ -313,6 +314,7 @@ modFit.Agg  <- randomForest(Survived ~ ., data=modPreds)
 #     0  1 class.error
 # 0 109 19   0.1484375
 # 1  32 51   0.3855422
+
 
 #### Aggregating the six models using majority vote model ####
 modPred.logit <- as.numeric(modPred.logit) # Accuracy : 0.763 
