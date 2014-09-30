@@ -14,7 +14,7 @@ My Solutions to a Kaggle Competition:
 
 2. Classification Using Six Commonly Used Classifiers and Combining Them With Majority Vote:
     <i>
-        Used six commonly used classification algorithms: logistic regression, decision trees, random forest, k-nearest neighbors, linear discriminant analysis, support vector machine, and combining all of them with majority vote.
+        Used six commonly used classification algorithms: <strong>logistic regression</strong>, <strong>decision trees</strong>, <strong>random forest</strong>, <strong>k-nearest neighbors</strong>, <strong>linear discriminant analysis</strong>, <strong>support vector machine</strong>, and combining all of them with <strong>majority vote</strong>.
     </i>
 
 
